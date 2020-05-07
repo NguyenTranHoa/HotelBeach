@@ -10,6 +10,7 @@ class Home extends Component {
         return (
             <>
             <Hero>
+                <h1>Hello</h1>
                  <Banner title="luxurious rooms" subtitle="deluxe rooms starting at $299">
                     <Link to="/rooms" className="btn-primary">
                         our rooms
