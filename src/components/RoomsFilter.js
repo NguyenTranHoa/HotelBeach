@@ -1,11 +1,9 @@
-import React, { Component } from 'react'
+import React from 'react'
+import {useContext} from 'react'
+import {RoomContext} from '../context'
+import Title from '../components/Title'
 
-export default class RoomsFilter extends Component {
-    render() {
-        return (
-            <div>
-                
-            </div>
-        )
-    }
+export default function RoomsFilter() {
+    const context = useContext(RoomContext);
+    console.log(context);
 }
